@@ -1,15 +1,42 @@
 //React imports
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from "react";
+import ReactDOM from "react-dom/client";
 //My imports
-import './styles/index.css';
-import {App} from "./components/App.jsx"
+import "./styles/index.css";
+import { App } from "./components/App.jsx";
 
 //To manage the index.html document
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <>
-    <App />
+    <App
+      tasks={
+        [
+          {
+            taskName: "Homework",
+            descripcion: "complete last 3 exercises",
+            dateTime: "07/12/2022, 04:55:00",
+            status: true,
+          },
+        ]
+      }
+    />
+    {
+    /*
+    tasks={
+        [
+          {
+            taskName: string,
+            descripcion: string,
+            dateTime: string,
+            status: bool,
+          },
+        ]
+      }
+    
+    
+    
+    */}
   </>
 );
 
