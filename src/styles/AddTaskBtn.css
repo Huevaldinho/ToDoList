@@ -1,0 +1,11 @@
+.addTaskBtn{
+    height: 50px;
+    width: 15%;
+    color: #fff;
+    background-color: #3366FF;
+    border-radius: 25px;
+    outline-style: outset;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: large;
+}

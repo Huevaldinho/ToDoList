@@ -2,15 +2,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 //My imports
-import './index.css';
-import {App} from "./App"
+import './styles/index.css';
+import {App} from "./components/App.jsx"
 
 //To manage the index.html document
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
     <App />
-  
   </>
 );
 
